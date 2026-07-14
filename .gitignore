@@ -67,3 +67,24 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# === macOS System Files ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# === Xcode Build & User Files ===
+build/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xcuserstate
+project.xcworkspace/xcuserdata/
+*.xcuserdatad/
+
+
+
