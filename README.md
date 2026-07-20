@@ -54,3 +54,20 @@ DataStruct-Algo_Deng/
     ├── Sort.h
     └── main.cpp
 ```
+
+#章节对应关系
+
+```text
+ch02  向量
+ch03  列表
+ch04  栈与队列
+ch05  二叉树
+ch06  图
+ch07  二叉搜索树
+ch08  高级搜索树
+ch09  词典与散列表
+ch10  优先级队列
+ch11  串
+ch12  排序
+```
+
