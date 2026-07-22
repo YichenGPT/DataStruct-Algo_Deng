@@ -38,7 +38,7 @@ int evalRPN(const string& exp){
     for(int i = 0; i < (int)exp.length(); i++){
         char c = exp[i];
         
-        if(c = ' ') continue;
+        if(c == ' ') continue;
         if(c >= '0' && c <= '9'){
             s.push(c - '0');
         }else{
@@ -47,12 +47,13 @@ int evalRPN(const string& exp){
             
             switch (c){
                 case '+': s.push(first + last); break;
-                case '-': s.push(fisrt - last); break;
+                case '-': s.push(first - last); break;
                 case '*': s.push(first * last); break;
                 case '/': s.push(first / last); break;
             }
         }
     }
+    return s.pop();
 }
 
 
@@ -115,9 +116,9 @@ int main(){
     
     cout << "Test RPN" << endl;
     
-    string rpn = "6 7 2 * + 3 * 2 / 4 +" // [(6 + 7 * 2) * 3] / 2 + 4
+    string rpn = "6 7 2 * + 3 * 2 / 4 +"; // [(6 + 7 * 2) * 3] / 2 + 4
     
-    cout << rpn << "=" << evalRPN(rpn) << endl;
+    cout << rpn << " = " << evalRPN(rpn) << endl;
     
     return 0;
 }
