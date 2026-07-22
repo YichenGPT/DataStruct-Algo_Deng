@@ -19,7 +19,8 @@ DataStruct-Algo_Deng/
 │   └── main.cpp
 │
 ├── ch04_stack_queue/
-│   ├── StackQueue.h
+│   ├── Stack.h
+│   ├── Queue.h
 │   └── main.cpp
 │
 ├── ch05_binary_tree/
