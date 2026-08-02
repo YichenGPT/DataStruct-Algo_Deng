@@ -59,8 +59,14 @@ private:
     void init(){
         header = new ListNode<T>;
         trailer = new ListNode<T>;
-        
+
+        /*
+         new ListNode<T>: new ListNode<T> + ListNode();
+        */
+
+        header->pred = nullptr;
         header->succ = trailer;
+        trailer->succ = nullptr;
         trailer->pred = header;
         
         _size = 0;
