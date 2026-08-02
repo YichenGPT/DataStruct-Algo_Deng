@@ -152,6 +152,7 @@ public:
     }
     
     // 无序去重 (find_update() + deduplicate() )
+    // 检查 p 前面 n 个节点
     ListNode<T>* find_update(T const& e, int n, ListNode<T>* p) const {
         while (n-- > 0){
             p = p->pred;
@@ -176,7 +177,7 @@ public:
             ListNode<T>* q = find_update(p->data, r, p);
             
             if(q != nullptr){
-                remove(q); // 删除前序中的重复着
+                remove(q); // 删除前序中的重复者
             }else{
                 r++; // 前序扩大
             }
