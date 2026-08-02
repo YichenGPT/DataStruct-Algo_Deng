@@ -140,7 +140,7 @@ public:
         return nullptr;
     }
   
-    // 有序查找( list 升序排列)
+    // 有序查找( list 升序排列 )
     // 返回不大于 e 的最靠右节点
     ListNode<T>* search(T const& e) const {
         ListNode<T>* p = trailer->pred;
