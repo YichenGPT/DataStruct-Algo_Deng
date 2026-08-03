@@ -13,10 +13,10 @@ int main() {
     BinNode<char>* A = tree.insertAsRoot('A');
     BinNode<char>* B = tree.insertAsLC(A, 'B');
     BinNode<char>* C = tree.insertAsRC(A, 'C');
-    tree.insertAsLC(B, 'D');
-    tree.insertAsRC(B, 'E');
-    tree.insertAsLC(C, 'F');
-    tree.insertAsRC(C, 'G');
+    BinNode<char>* D = tree.insertAsLC(B, 'D');
+    BinNode<char>* E = tree.insertAsRC(B, 'E');
+    BinNode<char>* F = tree.insertAsLC(C, 'F');
+    BinNode<char>* G = tree.insertAsRC(C, 'G');
 
     cout << "Pre Recursive: ";
     tree.travPre_R(tree.root());
