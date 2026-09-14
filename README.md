@@ -1,59 +1,41 @@
-# DataStruct-Algo_Deng
-记录学习邓俊辉《数据结构与算法》C++版本的代码与笔记。
+# Data Structures Course Notes
 
-# 仓库目录
+用于记录数据结构课堂内容、基础实现与课后练习。仓库同时保留邓俊辉《数据结构与算法》的学习代码，课堂实现与参考实现分开维护。
+
+## 导航
+
+| 目录 | 内容 |
+| --- | --- |
+| [course_Fudan](course_Fudan/) | 复旦大学数据结构课堂记录与配套实现 |
+| `ch02_vector`–`ch12_sort` | 邓俊辉《数据结构与算法》章节代码 |
+
+## 仓库结构
 
 ```text
+
 DataStruct-Algo_Deng/
 ├── .gitignore
 ├── LICENSE
 ├── README.md
 ├── DataStruct-Algo_Deng.xcodeproj
+├── course_Fudan/
+│   └── Week2_linked_list_stack/
+│       ├── singly_list.h
+│       ├── main.cpp
+│       └── leetcode.md
 │
 ├── ch02_vector/
-│   ├── Vector.h
-│   └── main.cpp
-│
 ├── ch03_list/
-│   ├── List.h
-│   └── main.cpp
-│
 ├── ch04_stack_queue/
-│   ├── Queue.h
-│   ├── Stack.h
-│   └── main.cpp
-│
 ├── ch05_binary_tree/
-│   ├── BinTree.h
-│   └── main.cpp
-│
 ├── ch06_graph/
-│   ├── Graph.h
-│   └── main.cpp
-│
 ├── ch07_bst/
-│   ├── BST.h
-│   └── main.cpp
-│
 ├── ch08_advanced_search_tree/
-│   ├── AdvancedTree.h
-│   └── main.cpp
-│
 ├── ch09_dictionary/
-│   ├── HashTable.h
-│   └── main.cpp
-│
 ├── ch10_priority_queue/
-│   ├── PriorityQueue.h
-│   └── main.cpp
-│
 ├── ch11_string/
-│   ├── StringMatch.h
-│   └── main.cpp
-│
 └── ch12_sort/
-    ├── Sort.h
-    └── main.cpp
+
 ```
 
 # 章节对应关系

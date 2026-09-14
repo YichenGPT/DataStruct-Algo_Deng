@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
     BinTree<char> tree;
-
+    
     BinNode<char>* A = tree.insertAsRoot('A');
     BinNode<char>* B = tree.insertAsLC(A, 'B');
     BinNode<char>* C = tree.insertAsRC(A, 'C');
